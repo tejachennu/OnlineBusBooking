@@ -56,8 +56,9 @@ const Navbar = () => {
                         </li>
                     ))}
                 </ul>
-
+              
                 <div className="flex flex-col flex-wrap items-start text-base font-medium md:items-center gap-x-5 gap-y-2 md:flex-row text-neutral-800">
+  
                     <div className="relative px-8 py-2 rounded-md cursor-pointer bg-violet-600 w-fit">
                         <div className="absolute top-[50%] -left-6 translate-y-[-50%] w-9 h-9 rounded-full bg-violet-600 border-4 border-neutral-100 dark:border-neutral-900 flex items-center justify-center">
                             <FaPhone className='text-sm text-neutral-50' />
@@ -69,6 +70,8 @@ const Navbar = () => {
                             <p className="text-xs font-normal tracking-wide text-neutral-50">+91 1234567890</p>
                         </div>
                     </div>
+                    <Link to={"/login"} className="duration-300 ease-in-out hover:text-violet-600">Login</Link>
+
                     {/* Theme */}
                     <Theme />
                 </div>

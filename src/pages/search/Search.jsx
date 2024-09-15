@@ -40,20 +40,6 @@ const Search = () => {
                 </div>
 
                 <div className="">
-                    <label htmlFor="time" className="block mb-2 font-semibold ">
-                        Choose Time 
-                    </label>
-                    <input type="time" id='time' name='time' className="inline-block w-full h-12 px-3 border rounded-md appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 bg-neutral-200/60 dark:bg-neutral-900/60 border-neutral-200 dark:border-neutral-900 focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"/>
-                </div>
-
-                <div className="">
-                    <label htmlFor="seat" className="block mb-2 font-semibold ">
-                        Total Seat 
-                    </label>
-                    <input type="number" id='seat' name='seat' placeholder='Enter seat' className="inline-block w-full h-12 px-3 border rounded-md appearance-none text-neutral-800 dark:text-neutral-100 placeholder:text-neutral-400 dark:placeholder:text-neutral-600 bg-neutral-200/60 dark:bg-neutral-900/60 border-neutral-200 dark:border-neutral-900 focus:outline-none focus:bg-neutral-100 dark:focus:bg-neutral-900"/>
-                </div>
-
-                <div className="">
                     
                     <button className="w-full h-12 px-4 text-base bg-violet-600 text-neutral-50">
                         Check Availability
